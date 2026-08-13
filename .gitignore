@@ -17,7 +17,21 @@ env/
 
 # Node.js
 node_modules/
+dist/
 
 # 日志与临时文件
 *.log
 tmp/
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+
+# 数据库备份
+*.backup
+*.dump
+backups/
+
+# 上传/临时文件
+uploads/
